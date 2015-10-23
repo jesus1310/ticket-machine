@@ -34,6 +34,14 @@ public class TicketMachine
     {
         price = money;
     }
+            
+    /**        
+    * Return total amount     
+    */
+    public int getTotal()
+    {      
+     return total;      
+    }
 
     /**
      * Return the price of a ticket.
@@ -50,6 +58,11 @@ public class TicketMachine
     public int getBalance()
     {
         return balance;
+    }
+    
+    public void prompt()
+    {
+        System.out.println("Please, insert the correct amount of money");
     }
 
     /**
