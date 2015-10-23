@@ -60,11 +60,17 @@ public class TicketMachine
         return balance;
     }
     
+    /**
+     * Añadido metodo para imprimir por pantalla una frase
+     */
     public void prompt()
     {
         System.out.println("Please, insert the correct amount of money");
     }
     
+    /**
+     * Añadido metodo para mostrar el precio por pantalla
+     */
     public void showPrice()
     {
         System.out.println("The price of a ticket is " + price + " cents");
