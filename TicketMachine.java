@@ -6,7 +6,7 @@
  * to insert enough money before trying to print a ticket.
  * It also assumes that users enter sensible amounts.
  *
- * @author David J. Barnes and Michael KÃ¶lling
+ * @author David J. Barnes and Michael Kölling
  * @version 2011.07.31
  */
 public class TicketMachine
@@ -29,6 +29,11 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+    public void setPprice(int money)
+    {
+        price = money;
+    }
 
     /**
      * Return the price of a ticket.
@@ -45,14 +50,6 @@ public class TicketMachine
     public int getBalance()
     {
         return balance;
-    }
-    
-    /**
-     * Return total amount
-     */
-    public int getTotal()
-    {
-        return total;
     }
 
     /**
