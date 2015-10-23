@@ -30,6 +30,16 @@ public class TicketMachine
         total = 0;
     }
     
+    /**
+     * Crear segundo constructor
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;
+    }
+    
     public void setPprice(int money)
     {
         price = money;
