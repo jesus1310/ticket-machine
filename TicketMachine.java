@@ -60,6 +60,14 @@ public class TicketMachine
     {
         return price;
     }
+    
+    /**
+     * Simula que devuelve todo el dinero.
+     */
+    public void empty()
+    {
+        balance = 0;
+    }
 
     /**
      * Return the amount of money already inserted for the
