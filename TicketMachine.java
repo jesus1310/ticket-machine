@@ -66,7 +66,7 @@ public class TicketMachine
      */
     public void empty()
     {
-        balance = 0;
+        total = 0;
     }
 
     /**
